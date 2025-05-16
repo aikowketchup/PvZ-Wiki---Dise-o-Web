@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Une los bordes de las celdas */
+}
+td {
+    color: white;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: center;
+}
+.divtabla {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.imgplantas {
+    width: 100px;
+    height: auto;
+}

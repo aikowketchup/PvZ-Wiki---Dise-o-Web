@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas - Plants vs. Zombies</title>
+    <link rel="stylesheet" href="index-estilos.css">
+    <link rel="stylesheet" href="estilotabla.css">
+</head>
+
+<body class="bodyplantas">
+    <header>
+        <img class="logo-index" src="https://i.imgur.com/UFoDIUU.png" alt="logo-index">
+    </header>
+
+    <div style="display: flex; justify-content: space-between; gap: 10px; align-items: flex-start;">
+        <nav style="flex: 1;" class="contenedor-enlaces">
+            <h2 class="texto-nav">Secciones</h3>
+            <nav style="margin-bottom: 30px;">
+                <ul>
+                    <li style="color: white;"><a href="index.html">Página principal</a></li>
+                    <li style="color: white;"><a href="zombis.html">Zombis</a></li>
+                    <li style="color: white;"><a href="curiosidades.html">Curiosidades</a></li>
+                </ul>
+            </nav>
+        </nav>
+
+        <nav style="flex: 4;" class="contenedor-texto">
+            <h2 class="texto-subtitulos">Plantas</h2>
+            <p class="texto-parrafos">En Plantas contra Zombis, las plantas son los personajes principales que el jugador controla y utiliza como defensa frente a la invasión de <a style="color: white;" href="zombis.html">zombis</a>. Cada planta tiene habilidades específicas que ayudan a cumplir distintos roles, como atacar, defender, generar recursos o apoyar a otras plantas.</p>
+            <p class="texto-parrafos">Son el corazón de la jugabilidad del juego y funcionan como tus “unidades de combate”. En lugar de soldados o armas, aquí tu ejército está compuesto por vegetales vivos y animados que luchan para proteger tu jardín (y tu casa) del apocalipsis zombi.</p>
+            <h2 class="texto-subtitulos">Características generales de las plantas</h2>
+            <nav>
+                <ul>
+                    <li class="texto-parrafos">Costo en soles: Cada planta requiere una cantidad de soles para ser colocada. Cuanto más poderosa es, más cara suele ser.</li>
+                    <li class="texto-parrafos">Tiempo de recarga: Después de plantar una unidad, debes esperar unos segundos antes de volver a usarla.</li>
+                    <li class="texto-parrafos">Ubicación limitada: Las plantas se colocan en casillas de una cuadrícula. Solo una por casilla.</li>
+                    <li class="texto-parrafos">Diversidad de funciones: Hay más de 40 plantas en el juego original, y cada una tiene un propósito distinto: disparar, bloquear, explotar, congelar, atraer enemigos, entre otros.</li>
+                    <li class="texto-parrafos">Estrategia: Elegir qué plantas llevar a cada nivel es una parte fundamental del juego. No puedes llevarlas todas, así que debes adaptarte a los tipos de <a style="color: white;" href="zombis.html">zombis</a> y al terreno.</li>
+                </ul>
+            </nav>
+            <h3 class="texto-subsubtitulos">Personalidad y diseño</h3>
+            <p class="texto-parrafos">Cada planta tiene su propia personalidad visual y sonora:</p>
+            <nav>
+                <ul>
+                    <li class="texto-parrafos">Son adorables, con ojos grandes y expresiones simpáticas.</li>
+                    <li class="texto-parrafos">Tienen animaciones únicas cuando atacan o interactúan.</li>
+                    <li class="texto-parrafos">Algunas tienen curiosidades o chistes visuales en su diseño (por ejemplo, la Patatapum es una papa con mecha).</li>
+                </ul>
+            </nav>
+            
+            <h3 class="texto-subsubtitulos">Algunas plantas del juego</h3>
+            <div class="divtabla">
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Planta</th>
+                        <th>Imagen</th>
+                        <th>Función</th>
+                        <th>Costo</th>
+                        <th>Descripción</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- Girasol -->
+                      <tr>
+                        <td>Girasol</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/foXbmoG.png" alt="girasol" title="Girasol"></td>
+                        <td>Generar soles.</td>
+                        <td>50 soles.</td>
+                        <td>Es la planta más esencial. Produce soles de forma constante, lo que permite plantar otras unidades. Sin ella, no podrías construir tu defensa.</td>
+                      </tr>
+                      <!-- Lanzaguisantes -->
+                      <tr>
+                        <td>Lanzaguisantes</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/dc6GLc0.png" alt="Lanzaguisantes" title="Lanzaguisantes"></td>
+                        <td>Ataque básico.</td>
+                        <td>100 soles.</td>
+                        <td>Dispara guisantes a los zombis. Es la planta ofensiva estándar y se usa mucho en los primeros niveles.</td>
+                      </tr>
+                      <!-- Hielaguisantes -->
+                      <tr>
+                        <td>Hielaguisantes</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/ELuZ3cL.png" alt="Hielaguisantes" title="Hielaguisantes"></td>
+                        <td>Ataque + ralentización.</td>
+                        <td>175 soles.</td>
+                        <td>Dispara guisantes congelados que ralentizan a los zombis además de dañarlos. Muy útil para controlar oleadas.</td>
+                      </tr>
+                      <!-- Nuez -->
+                      <tr>
+                        <td>Nuez</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/JbSgKQJ.png" alt="nuez" title="Nuez"></td>
+                        <td>Defensa.</td>
+                        <td>50 soles.</td>
+                        <td>Sirve como un muro que bloquea a los zombis mientras otras plantas los atacan. Es barata y muy resistente.</td>
+                      </tr>
+                      <!-- Cereza explosiva -->
+                      <tr>
+                        <td>Cereza explosiva</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/WRIboWy.png" alt="cereza" title="Cereza explosiva"></td>
+                        <td>Ataque instantáneo de área.</td>
+                        <td>150 soles.</td>
+                        <td>Explota y destruye a todos los zombis en un área de 3×3 casillas. Ideal para emergencias.</td>
+                      </tr>
+                      <!-- Jalapeño -->
+                      <tr>
+                        <td>Jalapeño</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/espWP2P.png" alt="jalapeño" title="Jalapeño"></td>
+                        <td>Ataque instantáneo en una fila completa.</td>
+                        <td>125 soles.</td>
+                        <td>Quema todos los zombis de una fila. Perfecto para limpiar un carril lleno.</td>
+                      </tr>
+                      <!-- Seta solar -->
+                      <tr>
+                        <td>Seta solar</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/szeUFJx.png" alt="setasolar" title="Seta solar"></td>
+                        <td>Generar soles (por la noche).</td>
+                        <td>25 soles.</td>
+                        <td>Versión nocturna del Girasol. Es gratuita al principio, pero al pasar el tiempo produce soles más rápido.</td>
+                      </tr>
+                      <!-- Melón-pulta -->
+                      <tr>
+                        <td>Melón-pulta</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/01Gt1JO.png" alt="melonpulta" title="Melón-pulta"></td>
+                        <td>Ataque potente de área.</td>
+                        <td>300 soles.</td>
+                        <td>Lanza melones que hacen daño en área. Es una de las plantas ofensivas más fuertes del juego.</td>
+                      </tr>
+                      <!-- Plantorcha -->
+                      <tr>
+                        <td>Plantorcha</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/SrxsV6Y.png" alt="plantorcha" title="Plantorcha"></td>
+                        <td>Potenciador.</td>
+                        <td>175 soles.</td>
+                        <td>Convierte los guisantes que pasan a través de ella en bolas de fuego, duplicando el daño. Muy poderosa combinada con Lanzaguisantes.</td>
+                      </tr>
+                      <!-- Hipnoseta -->
+                      <tr>
+                        <td>Hipnoseta</td>
+                        <td><img class="imgplantas" src="https://i.imgur.com/Fv8fuUk.png" alt="hipnoseta" title="Hipnoseta"></td>
+                        <td>Control mental.</td>
+                        <td>75 soles.</td>
+                        <td>Hace que el zombi que la coma cambie de bando y ataque a otros zombis. Muy útil contra enemigos fuertes.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <p class="texto-parrafos">Las plantas en PvZ son tus herramientas de defensa, con habilidades únicas que te permiten planear y ejecutar estrategias para detener a los zombis. Son variadas, divertidas, y fundamentales para el éxito en el juego.</p>
+        </nav>
+    </div>
+
+    <footer>
+        <p style="color: white;">Plants vs. Zombies Wiki ©, Equipo: Medina - <a style="color: white;" href="comopor.html">Sobre nosotros, y el porqué de esta página.</a></p>
+    </footer>
+</body>
+
+</html>

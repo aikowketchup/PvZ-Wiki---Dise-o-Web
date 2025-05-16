@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.bodycuriosidades {
+    background-image: url(https://i.imgur.com/LRfYcI1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bodyindex {
+    background-image: url(https://i.imgur.com/54KOW4f.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bodyplantas {
+    background-image: url(https://i.imgur.com/1iK5U67.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bodyzombis {
+    background-image: url(https://i.imgur.com/NnUG1ti.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bodycomopor {
+    background-image: url(https://i.imgur.com/LfYCBfT.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+table {
+    color: white;
+    text-align: justify;
+}
+header {
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+li {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    color: white;
+}
+footer {
+    text-align: center;
+}
+.logo-index {
+    width: 500px;
+    height: auto;
+}
+.contenedor-enlaces {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    background-color: rgba(129, 217, 255, 0.407);
+    border-radius: 10px;
+}
+.contenedor-texto {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    background-color: rgba(2,34,48, 0.8);
+    border-radius: 10px;
+}
+.texto-parrafos {
+    color: white;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.texto-subtitulos {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.texto-nav {
+    color: rgb(255, 255, 255);
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    margin-left: 25px;
+}
+.texto-subsubtitulos {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: row; /* Para que los navs estén uno al lado del otro */
+    align-items: flex-start; /* Muy importante: evita que se estiren igual */
+    gap: 20px;
+}
